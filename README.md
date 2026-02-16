@@ -15,4 +15,33 @@ This project is a professional landing page for ExpressVPN that showcases the VP
   - Multi-device support (Windows, macOS, iOS, Android, Router)
 
 - **Responsive Design**: Mobile-friendly layout that works on all devices
+  
+
+#TASK 2:🌐 Personal Portfolio Website – BARATAM SRIMANTH
+
+This is a modern, clean, and responsive **personal portfolio website** built using **HTML5 and CSS3**.  
+It showcases my profile, projects, blog section, and contact information in a minimal and professional layout.
+
+---
+
+## ✨ Features
+
+- Responsive navigation bar  
+- Hero section with introduction and profile image  
+- Projects / Works showcase  
+- Blog & news section  
+- Contact form with email link  
+- Clean UI with modern typography  
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Structure of the website  
+- **CSS3** – Styling and layout  
+- **Responsive Design** – Works on desktop and mobile screens  
+
+---
+
+## 📂 Project Structure
 
