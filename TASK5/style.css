@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+/* Quote Section */
+.quote {
+  background: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.quote-text {
+  max-width: 50%;
+  font-size: 22px;
+}
+
+.quote-image img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Biography */
+.biography {
+  padding: 60px;
+}
+
+.biography h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.biography p {
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+/* Legacy */
+.legacy {
+  padding: 60px;
+  background: #111;
+}
+
+.legacy h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.legacy p {
+  color: #ccc;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quote {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .quote-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
