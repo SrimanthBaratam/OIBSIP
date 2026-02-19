@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAuth()">
+
+  <div class="dashboard-container">
+    <h1 id="welcomeUser">Welcome 🎉</h1>
+
+    <p class="subtitle">You have successfully logged in</p>
+
+    <div class="secure-box">
+      🔐 This is a secured page. Only authenticated users can access it.
+    </div>
+
+    <button class="logout-btn" onclick="logout()">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
